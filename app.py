@@ -12,7 +12,7 @@ def predict():
     N=float(N)
     P=request.args.get('P')
     P=float(P)
-    K=request.args,get('K')
+    K=request.args.get('K')
     K=float(K)
     T=request.args.get('T')
     T=float(T)
