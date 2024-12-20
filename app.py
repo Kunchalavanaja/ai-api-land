@@ -18,7 +18,7 @@ def predict():
     T=float(T)
     H=request.args.get('H')
     H=float(H)
-    PH=request,args.get('PH')
+    PH=request.args.get('PH')
     PH=float(PH)
     R=request.args.get('R')
     R=float(R)
